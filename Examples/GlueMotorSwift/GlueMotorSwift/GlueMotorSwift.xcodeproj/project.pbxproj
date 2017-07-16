@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57EF4AB1F1BC68000831D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EF4AA1F1BC68000831D4A /* AppDelegate.swift */; };
+		A57EF4AD1F1BC68000831D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EF4AC1F1BC68000831D4A /* ViewController.swift */; };
+		A57EF4B01F1BC68000831D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57EF4AE1F1BC68000831D4A /* Main.storyboard */; };
+		A57EF4B21F1BC68000831D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57EF4B11F1BC68000831D4A /* Assets.xcassets */; };
+		A57EF4B51F1BC68000831D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57EF4B31F1BC68000831D4A /* LaunchScreen.storyboard */; };
+		A57EF4C01F1BC68000831D4A /* GlueMotorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EF4BF1F1BC68000831D4A /* GlueMotorSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57EF4BC1F1BC68000831D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57EF49F1F1BC68000831D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57EF4A61F1BC68000831D4A;
+			remoteInfo = GlueMotorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A57EF4A71F1BC68000831D4A /* GlueMotorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlueMotorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57EF4AA1F1BC68000831D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57EF4AC1F1BC68000831D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57EF4AF1F1BC68000831D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57EF4B11F1BC68000831D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57EF4B41F1BC68000831D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A57EF4B61F1BC68000831D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57EF4BB1F1BC68000831D4A /* GlueMotorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlueMotorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57EF4BF1F1BC68000831D4A /* GlueMotorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlueMotorSwiftTests.swift; sourceTree = "<group>"; };
+		A57EF4C11F1BC68000831D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57EF4A41F1BC68000831D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57EF4B81F1BC68000831D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57EF49E1F1BC68000831D4A = {
+			isa = PBXGroup;
+			children = (
+				A57EF4A91F1BC68000831D4A /* GlueMotorSwift */,
+				A57EF4BE1F1BC68000831D4A /* GlueMotorSwiftTests */,
+				A57EF4A81F1BC68000831D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57EF4A81F1BC68000831D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57EF4A71F1BC68000831D4A /* GlueMotorSwift.app */,
+				A57EF4BB1F1BC68000831D4A /* GlueMotorSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57EF4A91F1BC68000831D4A /* GlueMotorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A57EF4AA1F1BC68000831D4A /* AppDelegate.swift */,
+				A57EF4AC1F1BC68000831D4A /* ViewController.swift */,
+				A57EF4AE1F1BC68000831D4A /* Main.storyboard */,
+				A57EF4B11F1BC68000831D4A /* Assets.xcassets */,
+				A57EF4B31F1BC68000831D4A /* LaunchScreen.storyboard */,
+				A57EF4B61F1BC68000831D4A /* Info.plist */,
+			);
+			path = GlueMotorSwift;
+			sourceTree = "<group>";
+		};
+		A57EF4BE1F1BC68000831D4A /* GlueMotorSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A57EF4BF1F1BC68000831D4A /* GlueMotorSwiftTests.swift */,
+				A57EF4C11F1BC68000831D4A /* Info.plist */,
+			);
+			path = GlueMotorSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57EF4A61F1BC68000831D4A /* GlueMotorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57EF4C41F1BC68000831D4A /* Build configuration list for PBXNativeTarget "GlueMotorSwift" */;
+			buildPhases = (
+				A57EF4A31F1BC68000831D4A /* Sources */,
+				A57EF4A41F1BC68000831D4A /* Frameworks */,
+				A57EF4A51F1BC68000831D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlueMotorSwift;
+			productName = GlueMotorSwift;
+			productReference = A57EF4A71F1BC68000831D4A /* GlueMotorSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A57EF4BA1F1BC68000831D4A /* GlueMotorSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57EF4C71F1BC68000831D4A /* Build configuration list for PBXNativeTarget "GlueMotorSwiftTests" */;
+			buildPhases = (
+				A57EF4B71F1BC68000831D4A /* Sources */,
+				A57EF4B81F1BC68000831D4A /* Frameworks */,
+				A57EF4B91F1BC68000831D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57EF4BD1F1BC68000831D4A /* PBXTargetDependency */,
+			);
+			name = GlueMotorSwiftTests;
+			productName = GlueMotorSwiftTests;
+			productReference = A57EF4BB1F1BC68000831D4A /* GlueMotorSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57EF49F1F1BC68000831D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kurt Bowen";
+				TargetAttributes = {
+					A57EF4A61F1BC68000831D4A = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					A57EF4BA1F1BC68000831D4A = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = A57EF4A61F1BC68000831D4A;
+					};
+				};
+			};
+			buildConfigurationList = A57EF4A21F1BC68000831D4A /* Build configuration list for PBXProject "GlueMotorSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A57EF49E1F1BC68000831D4A;
+			productRefGroup = A57EF4A81F1BC68000831D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57EF4A61F1BC68000831D4A /* GlueMotorSwift */,
+				A57EF4BA1F1BC68000831D4A /* GlueMotorSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57EF4A51F1BC68000831D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57EF4B51F1BC68000831D4A /* LaunchScreen.storyboard in Resources */,
+				A57EF4B21F1BC68000831D4A /* Assets.xcassets in Resources */,
+				A57EF4B01F1BC68000831D4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57EF4B91F1BC68000831D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57EF4A31F1BC68000831D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57EF4AD1F1BC68000831D4A /* ViewController.swift in Sources */,
+				A57EF4AB1F1BC68000831D4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57EF4B71F1BC68000831D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57EF4C01F1BC68000831D4A /* GlueMotorSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A57EF4BD1F1BC68000831D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57EF4A61F1BC68000831D4A /* GlueMotorSwift */;
+			targetProxy = A57EF4BC1F1BC68000831D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A57EF4AE1F1BC68000831D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57EF4AF1F1BC68000831D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A57EF4B31F1BC68000831D4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57EF4B41F1BC68000831D4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57EF4C21F1BC68000831D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A57EF4C31F1BC68000831D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57EF4C51F1BC68000831D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5A8KKY65G5;
+				INFOPLIST_FILE = GlueMotorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurtis.GlueMotorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57EF4C61F1BC68000831D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5A8KKY65G5;
+				INFOPLIST_FILE = GlueMotorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurtis.GlueMotorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A57EF4C81F1BC68000831D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5A8KKY65G5;
+				INFOPLIST_FILE = GlueMotorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurtis.GlueMotorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlueMotorSwift.app/GlueMotorSwift";
+			};
+			name = Debug;
+		};
+		A57EF4C91F1BC68000831D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5A8KKY65G5;
+				INFOPLIST_FILE = GlueMotorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurtis.GlueMotorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlueMotorSwift.app/GlueMotorSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57EF4A21F1BC68000831D4A /* Build configuration list for PBXProject "GlueMotorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57EF4C21F1BC68000831D4A /* Debug */,
+				A57EF4C31F1BC68000831D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57EF4C41F1BC68000831D4A /* Build configuration list for PBXNativeTarget "GlueMotorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57EF4C51F1BC68000831D4A /* Debug */,
+				A57EF4C61F1BC68000831D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57EF4C71F1BC68000831D4A /* Build configuration list for PBXNativeTarget "GlueMotorSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57EF4C81F1BC68000831D4A /* Debug */,
+				A57EF4C91F1BC68000831D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57EF49F1F1BC68000831D4A /* Project object */;
+}
